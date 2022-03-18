@@ -1,7 +1,3 @@
-class Player {
-    constructor() {}
-}
-
 function game(pemain, dadu) {
     const [n, m] = [pemain, dadu];
     const players = [];
@@ -68,4 +64,4 @@ function game(pemain, dadu) {
     }
     // console.log(JSON.stringify(players));
 }
-game(5, 3);
+game(2, 2);
